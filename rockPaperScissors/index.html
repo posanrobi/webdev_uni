@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock-Paper-Sciccors</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 class="title">Rock Paper Scissors</h1>
+  <div class="game-container">
+    <h2 class="choose your">Your choice</h2>
+    <div class="choose-images">
+      <button class="btn btn-rock" data-image-src="images/game--3.png">
+        <img src="images/game--3.png" alt="rock" width="100" height="100">
+      </button>
+     <button class="btn btn-scissors" data-image-src="images/game--1.png">
+      <img src="images/game--1.png" alt="scissors" width="100" height="100">
+     </button>
+      <button class="btn btn-paper" data-image-src="images/game--2.png">
+        <img src="images/game--2.png" alt="paper" width="100" height="100">
+      </button>
+    </div>
+    <h2 class="choose computer">Computer's choice</h2>
+    <div class="computer-div">
+      <img class="question-img" src="images/questionMark.png" alt="" height="100" width="100">
+    </div>
+  </div>
+  <h1 class="result win lose"></h1>
+  <script src="script.js"></script>
+</body>
+</html>
