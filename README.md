@@ -1,2 +1,2 @@
 html css js app
-![app screenshot](rockPaperScissors/images/rockPaperScissors.png)
+![app screenshot](rockPaperScissors/images/rock_paper_scissors.png)
